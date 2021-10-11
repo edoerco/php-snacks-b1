@@ -20,3 +20,34 @@
         echo 'Accesso negato';
     }
 ?>
+
+<!-- soluzione paolo  -->
+<?php 
+    // $data = $_GET;
+    // $errors = '';
+    // // var_dump($data);
+
+    // if (empty($data['name']) || empty($data['mail']) || empty($data['age']))
+    // {
+    //     echo 'Errore';
+    // }
+    // else if (strlen($data['name']) <= 3) {
+    //     $errors .= 'Accesso negato - nome troppo corto';
+    // }
+    // else if (strpos($data['mail'], '@')  === false || strpos($data['mail'], '.') === false) {
+    //     $errors .=  'Accesso negato - mail inesistente (serve . e @)<br/>';
+    // }
+    // else if (!is_numeric($data['age'])) {
+    //     $errors .=  'Accesso negato - l\'età non è numerica';
+    // }
+    // else {
+    //     $errors .=  'Accesso riuscito';
+    // }
+
+    // if ($errors != '') {
+    //     echo $errors;
+    // }
+    // else {
+    //     echo 'Accesso riuscito';
+    // }
+?> 

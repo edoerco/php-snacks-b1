@@ -30,6 +30,6 @@ es: Olimpia Milano - Cantù | 55-60 -->
     // effettuo ciclo for 
     for ($i = 0; $i < count($partite); $i++) {
         // ricordarsi che il punto sostituisce il + 
-        echo $partite[$i]['teamCasa'] . ' ' . '-' . ' ' . $partite[$i]['teamOspiti'] . ' ' . '|' . ' ' . $partite[$i]['puntiCasa'] . '-' . $partite[$i]['puntiOspiti'] . '<br/>' ;
+        echo $partite[$i]['teamCasa'] .  ' - ' .  $partite[$i]['teamOspiti'] . ' | ' . $partite[$i]['puntiCasa'] . '-' . $partite[$i]['puntiOspiti'] . '<br/>' ;
     };
 ?>
