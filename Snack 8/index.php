@@ -8,9 +8,9 @@ Ad ogni refresh della pagina visualizzare una pubblicità a schermo, tenendo con
 
 
     $activeAdv = [];
-    foreach ($ads as $adv) {
-        if($adv['is_active']) {
-            $activeAdv[] = $adv;
+    foreach ($ads as $ad) {
+        if($ad['is_active']) {
+            $activeAdv[] = $ad;
         }
     }
     $currentActive = $activeAdv[rand(0, count($activeAdv) - 1)];
